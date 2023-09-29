@@ -14,9 +14,12 @@ namespace WebApplication1.Controllers
 
         /// <summary>
         /// This method takes id from the input and adds 10 in the value
+        /// GET /api/addten
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <param name="id">number </param>
+        /// <returns>http://localhost:50987/api/addten/21 <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">31</int>
+        /// http://localhost:50987/api/addten/0 <int xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</int>
+        /// </returns>
         public int Get(int id)
         {
             return id + 10;

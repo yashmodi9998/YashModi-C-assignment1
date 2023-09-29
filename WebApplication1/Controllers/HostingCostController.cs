@@ -9,7 +9,19 @@ namespace WebApplication1.Controllers
 {
     public class HostingCostController : ApiController
     {
-
+        /// <summary>
+        /// this method takes input from URL and return fortnight calculation
+        /// GET /api/hostingcost
+        /// </summary>
+        /// <param name="id">number of fortnight days</param>
+        /// <returns>
+        /// http://localhost:50987/api/hostingcost/5
+        /// <ArrayOfstring xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        ///<string>1 fortnights at $5.50/FN = $5.50 CAD</string>
+        ///<string>HST 13% = $0.72</string>
+        ///<string>Total = $6.22</string>
+        ///</ArrayOfstring>
+        /// </returns>
 
         public String[] Get(int id) {
             //variables
