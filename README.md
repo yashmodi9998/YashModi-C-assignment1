@@ -1,4 +1,4 @@
-### Assignment 1: Yash Modi
+# Assignment 1: Yash Modi
 This repo contains HTTP 5112-assignment 1.
 
 ## Tasks
